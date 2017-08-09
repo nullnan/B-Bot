@@ -1,0 +1,6 @@
+#!/bin/bash
+read_config(){
+    #read config.json
+    #read_config <key>
+    value=$(cat $PWD/config.json | jq .
+	    
